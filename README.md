@@ -1,4 +1,4 @@
-# DegreePlanner
+# DegreePlanner [![Project Status](https://img.shields.io/badge/Project%20Status-Kanban%20Board-brightgreen.svg?style=social)](http://jager-kujawa.com/gh-board/#/r/Kujawadl:DegreePlanner)
 
 <!-- Badges for eventual gh-pages branch
 [![GitHub issues](https://img.shields.io/github/issues/Kujawadl/DegreePlanner.svg?maxAge=2592000)]()
