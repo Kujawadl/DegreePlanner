@@ -1,6 +1,14 @@
 # DegreePlanner
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/Kujawadl/DegreePlanner.svg?maxAge=2592000)]()
+<!-- Badges for eventual gh-pages branch
+[![GitHub issues](https://img.shields.io/github/issues/Kujawadl/DegreePlanner.svg?maxAge=2592000)]()
+[![GitHub commits](https://img.shields.io/github/issues-pr/Kujawadl/DegreePlanner.svg?maxAge=2592000)]()
+[![GitHub commits](https://img.shields.io/github/contributors/Kujawadl/DegreePlanner.svg?maxAge=2592000)]()
+[![GitHub commits](https://img.shields.io/github/downloads/Kujawadl/DegreePlanner/total.svg?maxAge=2592000)]()
+[![GitHub commits](https://img.shields.io/github/forks/Kujawadl/DegreePlanner.svg?maxAge=2592000)]()
+[![GitHub commits](https://img.shields.io/github/stars/Kujawadl/DegreePlanner.svg?maxAge=2592000)]()
+[![GitHub commits](https://img.shields.io/github/watchers/Kujawadl/DegreePlanner.svg?maxAge=2592000)]()
+-->
 
 This project hopes to simplify the process of creating a degree plan by managing degree requirements and course prerequisites. Users can select their primary and secondary majors, and a minor, and a custom report will be generated with a list of all required courses and their prerequisites, organized by which part of their degree requires it.
 
