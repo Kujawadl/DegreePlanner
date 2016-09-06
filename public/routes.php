@@ -9,9 +9,9 @@ if ($URL->Valid) {
   if (isset($URL->Item)) {
     // TODO: Degree or course information
   } elseif (isset($URL->ItemType)) {
-    // TODO: Degress or courses list
+    $content = 'views/department.php';
   } elseif (isset($URL->Department)) {
-    // TODO: Degrees and courses list
+    $content = 'views/department.php';
   } elseif (isset($URL->School)) {
     // TODO: Departments list
   } elseif (isset($URL->ViewType)) {
