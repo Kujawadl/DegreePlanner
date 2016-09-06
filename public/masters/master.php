@@ -1,5 +1,3 @@
-<?php $siteurl = "/site/";?>
-
 <html>
   <head>
     <title>SFA Degree Planner<?php (isset($subtitle) ? " | " . $subtitle : ""); ?></title>
@@ -7,7 +5,7 @@
     <link rel="stylesheet" href="/css/site.css">
   </head>
   <body>
-    <?php include 'Navigation.php'; ?>
+    <?php include 'masters/navigation.php'; ?>
 
     <?php if (isset($content)) {include($content);} else {echo "There's nothing here...";} ?>
   </body>

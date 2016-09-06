@@ -4,7 +4,7 @@ include_once('models/department.php');
 //include_once('models/degree.php');
 include_once('models/course.php');
 
-class Route {
+class URL {
 
   public $Valid = false;
   public $ViewType;
@@ -15,7 +15,7 @@ class Route {
 
   public function __construct() {
     // Parse the routes from the uri using / as delimiter
-    $base_url = Route::getCurrentUri();
+    $base_url = URL::getCurrentUri();
     $routes = array();
     foreach (explode('/', $base_url) as $route) {
       if (trim($route) != '') {
@@ -67,7 +67,8 @@ class Route {
       }
 
       // Check item type is degree or course
-      if (strtolower($this->ItemType) != 'degree' &&
+      if (isset($this->ItemType) &&
+          strtolower($this->ItemType) != 'degree' &&
           strtolower($this->ItemType) != 'course') {
         throw new Exception();
       }
