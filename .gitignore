@@ -1,5 +1,3 @@
-# phpMyAdmin is used in these early stages for database management.
-# It will be removed in later versions, so ignore it for now.
-*/phpMyAdmin/*
 .vagrant/*
 fuel/app/logs/*
+*/.DS_Store

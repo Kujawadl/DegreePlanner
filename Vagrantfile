@@ -13,6 +13,6 @@ Vagrant.configure("2") do |config|
     #config.vm.synced_folder ".", "/var/www", :nfs => { :mount_options => ["dmode=777","fmode=666"] }
 
     config.vm.provision "shell" do |s|
-      s.inline = "cd /var/www; php composer.phar self-update; php composer.phar update;"
+      s.inline = "cd /var/www; php composer.phar update; cd /var/www/public/phpmyadmin; composer install;"
     end
 end
