@@ -2,3 +2,4 @@
 # It will be removed in later versions, so ignore it for now.
 */phpMyAdmin/*
 .vagrant/*
+fuel/app/logs/*
