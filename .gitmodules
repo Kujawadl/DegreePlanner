@@ -17,5 +17,5 @@
 	path = fuel/packages/parser
 	url = git://github.com/fuel/parser.git
 [submodule "phpmyadmin"]
-	path = phpmyadmin
+	path = public/phpmyadmin
 	url = git://github.com/phpmyadmin/phpmyadmin.git
