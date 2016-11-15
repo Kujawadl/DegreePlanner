@@ -1,0 +1,24 @@
+div#header {
+  width: 100%;
+  color: #493390;
+  padding-bottom: 15px;
+}
+
+div#nameplate {
+  background-image: url(http://faculty.sfasu.edu/phelpsrt/images/SFAlogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+}
+
+div#nameplate h1 {
+  text-align: left;
+  margin-left: 150px;
+  padding-top: 100px;
+}
+
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+}

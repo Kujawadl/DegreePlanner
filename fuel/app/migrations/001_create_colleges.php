@@ -11,7 +11,7 @@ class Create_colleges
 			'ShortName' => array('constraint' => 255, 'type' => 'varchar'),
 			'Name' => array('constraint' => 255, 'type' => 'varchar'),
 			'Address' => array('type' => 'text'),
-			'Phone' => array('constraint' => 11, 'type' => 'int'),
+			'Phone' => array('constraint' => 11, 'type' => 'bigint', 'unsigned' => true),
 			'created_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
 			'updated_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
 

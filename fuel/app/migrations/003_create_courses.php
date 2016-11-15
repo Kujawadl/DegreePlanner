@@ -20,15 +20,17 @@ class Create_courses
 
 		), array('id'), true, false, null,
     array(
-      'key' => 'Department',
-      'reference' => array(
-        'table' => 'departments',
-        'column' => 'id'
-      ),
-      'on_update' => 'CASCADE',
-      'on_delete' => 'RESTRICT'
+      array(
+        'key' => 'Department',
+        'reference' => array(
+          'table' => 'departments',
+          'column' => 'id'
+        ),
+        'on_update' => 'CASCADE',
+        'on_delete' => 'RESTRICT'
+      )
     ),
-    null));
+    null);
 	}
 
 	public function down()

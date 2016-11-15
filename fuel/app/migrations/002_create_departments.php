@@ -11,19 +11,21 @@ class Create_departments
       'College' => array('constraint' => 11, 'type' => 'int', 'unsigned' => true),
       'ShortName' => array('constraint' => 255, 'type' => 'varchar'),
 			'Name' => array('constraint' => 255, 'type' => 'varchar'),
-			'Phone' => array('constraint' => 11, 'type' => 'int'),
+			'Phone' => array('constraint' => 11, 'type' => 'bigint', 'unsigned' => true),
 			'created_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
 			'updated_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
 
 		), array('id'), true, false, null,
     array(
-      'key' => 'College',
-      'reference' => array(
-        'table' => 'colleges',
-        'column' => 'id'
-      ),
-      'on_update' => 'CASCADE',
-      'on_delete' => 'RESTRICT'
+        array(
+        'key' => 'College',
+        'reference' => array(
+          'table' => 'colleges',
+          'column' => 'id'
+        ),
+        'on_update' => 'CASCADE',
+        'on_delete' => 'RESTRICT'
+      )
     ),
     null);
 	}
